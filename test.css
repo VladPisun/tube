@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(33,33,33);
+}
+
+/* Базовые стили для всех логотипов */
+.logo, .foto, .tok {
+  display: block; 
+  margin-bottom: -9px; 
+  position: relative;
+  top: -5px;
+  height: 55px;
+  width: auto; 
+  transition: all 0.3s ease; /* Добавляем плавный переход */
+}
+
+
+.logo:hover, .foto:hover, .tok:hover {
+  display: block; 
+  margin-bottom: -9px; 
+  position: relative;
+  top: -5px;
+  height: 58px;
+  width: auto; 
+  transition: all 0.3s ease; /* Добавляем плавный переход */    
+}
+
+.container {
+  display: flex;                
+  justify-content: center;      
+  align-items: center;          
+  height: 100vh;                
+  margin: 0;       
+  position: relative;
+  top: -161px;       
+}      
+.vidos {
+  width: 21%;
+  height: auto; /* или конкретное значение, например, 800px */
+  margin: 0 10px; 
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
